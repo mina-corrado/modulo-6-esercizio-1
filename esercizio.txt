@@ -1,0 +1,45 @@
+/* Strive Blog API
+
+
+Sei responsabile della creazione di una serie di WebAPI per l'applicazione Strive Blog.
+
+Comincia dal Frontend fornito in allegato come base di partenza per questo progetto.
+
+Nel primo step dell'applicazione dovresti creare la possibilità di visualizzare, creare, modificare, cancellare gli autori dei blog.
+Domani connetterai il tuo backend dal frontend che abbiamo fornito per metterlo in comunicazione con le tue API.
+
+
+Gli autori devono avere queste informazioni:
+
+_id
+nome
+cognome
+email
+data di nascita
+avatar (e.g. https://ui-avatars.com/api/?name=John+Doe, immagine creata in base al nome e cognome fornito)
+
+
+
+Il backend deve includere le seguenti rotte:
+
+
+
+GET /authors => ritorna la lista degli autori
+GET /authors/123 => ritorna il singolo autore
+POST /authors => crea un nuovo autore
+PUT /authors/123 => modifica l'autore con l'id associato
+DELETE /authors/123 => cancella l'autore con l'id associato
+
+
+
+La persistenza dei dati dev'essere garantita dall'uso di MongoDB
+
+
+
+EXTRA
+
+Se vuoi connettere il backend e frontend oggi dovrai installare il paccetto 'cors' con il comando 'npm i cors'
+Dovrai quindi importarlo con un import statement 
+Puoi usare cors col seguente comando 'server.use(cors())'
+
+Impareremo cos'è CORS nella prossima lezione ;) */
